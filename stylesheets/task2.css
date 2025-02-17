@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#form {
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+
+button {
+    margin: 0px auto;
+    width: 75px;
+    font-size: 15px;
+    border-radius: 20px;
+}
