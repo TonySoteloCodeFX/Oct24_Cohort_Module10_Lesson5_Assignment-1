@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.colorForm {
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    height: 700px;
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border: 10px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
